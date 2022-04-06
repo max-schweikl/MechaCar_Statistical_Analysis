@@ -6,19 +6,33 @@
 - The slope in this data is not equal to zero, since the p-value is less than zero (or 5.35e-11 to be exact).
 - When looking specifically at the R-squared value, we can see this comes out at 0.7149, which means that for roughly 71.49% of the time the predictions in the lineal model will be accurate, which while this is a good confidence indicator, it could stil be higher.
 
+![](Resources/Deliverable_1.png)
+
 ## Summary Statistics on Suspension Coils
 
 - As shown by the below tables, the total overall variance is 62.29356 which is well below the 100 psi threshold and meets expectations.  However, one of the lots did show potential issue: Lot 3 is well over the 100 psi threshold and came in at 170.2861224 in total, which could to prove be problematic being this high.
+
+![](Resources/Deliverable_2_Total_Summary.png)
+
+![](Resources/Deliverable_2_Lot_Summary.png)
 
 ## T-Tests on Suspension Coils
 
 - For all manufacturing lots in total, they're not statistically different from the total population mean, and specifically the p-value is not low enough to reject the null hypothesis.  The p-value was 0.0603 and to reject would need to be below the significance value of p = 0.05.
 
+![](Resources/Deliverable_3_All_Lot.png)
+
 - For lot 1, they're not statistically different from the total population mean, and specifically the p-value is not low enough to reject the null hypothesis.  The p-value was 1 and to reject would need to be below the significance value of p = 0.05.
+
+![](Resources/Deliverable_3_Lot_1.png)
 
 - For lot 2, they're not statistically different from the total population mean, and specifically the p-value is not low enough to reject the null hypothesis.  The p-value was 0.6072 and to reject would need to be below the significance value of p = 0.05.
 
+![](Resources/Deliverable_3_Lot_2.png)
+
 - For lot 3, this manufacturing lot should slight statistical difference from the population mean, and the p-value was low enough to reject the null hypothesis.  The p-value was 0.0417 and to reject would need to be below the significance value of p = 0.05, so this came in just under the significance value.
+
+![](Resources/Deliverable_3_Lot_3.png)
 
 ## Study Design: MechaCar vs Competition
 
